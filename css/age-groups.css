@@ -1,0 +1,164 @@
+.age-groups {
+    display: flex;
+    position: relative;
+    height: 390px;
+    margin: 30px auto 199px auto;
+    max-width: 1062px;
+    padding-left: 10px;
+}
+
+.age-groups__info {
+    width: 316px;
+}
+
+.info-groups__title {
+    height: 129px;
+}
+
+.age-groups__text {
+    margin-top: 16px;
+    width: 272px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.slider-groups {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    height: 390px;
+    max-width: 935px;
+    align-items: center;
+    left: 316px;
+}
+
+.slider-groups__track {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    left: 0;
+    transition: left 0.5s;
+}
+
+.slider-groups__items {
+    height: 323px;
+    min-width: 241px;
+    margin: 0 15px;
+}
+
+.slider-groups__button {
+    position: absolute;
+    top: -20px;
+    width: 29px;
+    height: 17px;
+    z-index: 2;
+}
+
+.next-group {
+    left: calc(85% + 50px);
+    background-image: url("icon/Vector 4.17.svg");
+}
+
+.prev-group {
+    left: 85%;
+    background-image: url("icon/Vector 4.16.svg");
+}
+
+.slider-groups__items {
+    color: #000000;
+}
+
+.slider-groups__item_preschool {
+    background-image: url("../img/01.png");
+}
+
+.slider-groups__item_younger {
+    background-image: url("../img/02.png");
+}
+
+.slider-groups__item_middle {
+    background-image: url("../img/03.png");
+}
+
+.slider-groups__item_senior {
+    background-image: url("../img/04.png");
+}
+
+.name-group {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    width: 90px;
+    margin: 30px 100px 0 34px;
+}
+
+.number-years {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    margin-left: 26px;
+    margin-top: 123px;
+}
+
+.hyphen {
+    font-family: Geometria, sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+}
+
+.text-years {
+    display: block;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    margin-bottom: 21px;
+}
+
+.slider-groups__description {
+    display: none;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 27px;
+}
+
+.slider-groups__button_sign-up {
+    display: none;
+    width: 218px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #F6272F;
+    margin-left: 38px;
+    margin-top: 48px;
+    background-color: #FFFFFF;
+}
+
+.slider-groups__button_sign-up:hover {
+    cursor: pointer;
+}
+
+.slider-groups__items:hover {
+    color: white;
+    background-color: #e94a50;
+    height: 387px;
+    min-width: 293px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: min-width 0.7s, height 0.7s;
+}
+
+.slider-groups__items:hover * {
+    display: inline-block;
+}
+
+.slider-groups__items:hover .text-years {
+    display: block;
+}
+
+.slider-groups__items:hover .number-years {
+    margin-top: 6px;
+}

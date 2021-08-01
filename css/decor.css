@@ -1,0 +1,53 @@
+.small-circle__wrapper {
+    display: flex;
+    position: absolute;
+    width: 171px;
+    height: 171px;
+    top: -146px;
+    right: -189px;
+    overflow: hidden;
+}
+
+.small-circle {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 171px;
+    height: 171px;
+    border-radius: 50%;
+    background-color: #FF7157;
+}
+
+.big-circle__wrapper {
+    display: flex;
+    position: absolute;
+    top: -185px;
+    left: -190px;
+    width: 305px;
+    height: 305px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.big-circle {
+    position: absolute;
+    top: 0;
+    right: 250px;
+    width: 305px;
+    height: 305px;
+    border-radius: 50%;
+    background-color: #FF7157;
+    z-index: 1;
+}
+
+.many-points {
+    position: absolute;
+    bottom: -105px;
+    right: -114px;
+    width: 308px;
+    height: 308px;
+    background-image: url("decor/many-points.svg");
+    background-repeat: repeat;
+    z-index: 1;
+    opacity: 0.4;
+}

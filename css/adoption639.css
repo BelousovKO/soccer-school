@@ -1,0 +1,168 @@
+@media (max-width: 639px) {
+
+    body {
+        padding-top: 20px;
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .age-groups__text {
+        margin-top: 16px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .next-group {
+        left: calc(60% + 50px);
+    }
+
+    .prev-group {
+        left: 60%;
+    }
+
+    .number-years {
+        font-size: 38px;
+        line-height: 41px;
+    }
+
+    .hyphen {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text-years {
+        font-size: 14px;
+        line-height: 13px;
+    }
+
+    .schedule__date {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .schedule__address {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .schedule__button_sing-up {
+        width: 100%;
+        font-size: 11px;
+        line-height: 18px;
+        height: 40px;
+    }
+
+    .schedule__groups:hover .text-years_schedule {
+        display: none;
+    }
+
+    .reviews__title_small {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 28px;
+    }
+
+    .reviews__text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .reviews_video_wrapper {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .video__slider {
+        height: 163px;
+        width: 250px;
+    }
+
+    .video__slider_track {
+        height: 163px;
+        width: 250px;
+    }
+
+    .fake-video {
+        height: 100%;
+    }
+
+    .videoSign {
+        left: 92px;
+        top: 45px;
+        height: 65px;
+        width: 65px;
+    }
+
+    .contacts__title {
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+    .contacts__address,
+    .contacts__phone,
+    .contacts__mail {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 11px;
+        margin-right: 10px;
+    }
+
+    .form__title {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 30px auto 16px auto;
+    }
+
+    .contacts__form label {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form__submit {
+        font-size: 12px;
+        line-height: 16px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .contacts__map {
+        height: 200px;
+    }
+
+    .map__point {
+        height: 15px;
+        width: 15px;
+        left: 144px;
+        bottom: 200px;
+    }
+
+    .point__border {
+        left: 131px;
+        bottom: 188px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .point__shadow {
+        left: 116px;
+        bottom: 173px;
+        height: 70px;
+        width: 70px;
+    }
+
+    footer {
+        padding: 0 5%;
+    }
+
+    .copyright {
+        font-size: 10px;
+        line-height: 13px;
+    }
+}

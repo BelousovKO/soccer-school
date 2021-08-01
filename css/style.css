@@ -1,0 +1,45 @@
+@import "geometria.css";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E5E5E5;
+}
+
+body {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    padding-top: 100px;
+    background-color: white;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+}
+
+h1, h2 {
+    font-family: Geometria-ExtraBold, sans-serif;
+}
+
+button {
+    border: none;
+    height: 51px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

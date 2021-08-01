@@ -1,0 +1,136 @@
+.schedule {
+    margin: 0 auto 203px auto;
+    max-width: 1062px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.schedule__title {
+    margin-bottom: 42px;
+}
+
+.schedule__container {
+    list-style: none;
+    width: 1062px;
+    height: 556px;
+    position: relative;
+    z-index: 2;
+}
+
+.schedule__preschool-group {
+    left: 0;
+    top: 0;
+}
+
+.schedule__preschool-group:hover {
+    left: -5px;
+    top: -5px;
+}
+
+.schedule__younger-group {
+    right: 0;
+    top: 0;
+}
+
+.schedule__younger-group:hover {
+    right: -5px;
+    top: -5px;
+}
+
+.schedule__middle-group {
+    left: 0;
+    bottom: 0;
+}
+
+.schedule__middle-group:hover {
+    left: -5px;
+    bottom: -5px;
+}
+
+.schedule__senior-group {
+    right: 0;
+    bottom: 0;
+}
+
+.schedule__senior-group:hover {
+    right: -5px;
+    bottom: -5px;
+}
+
+.schedule__preschool-group,
+.schedule__senior-group {
+    background-color: #F2F1F1;
+}
+
+.schedule__younger-group,
+.schedule__middle-group {
+    background-color: #FBF9F9;
+}
+
+.schedule__days {
+    display: flex;
+}
+
+.schedule__groups {
+    position: absolute;
+    padding: 44px 38px;
+    display: grid;
+    grid-template-columns: 1fr 245px;
+    grid-gap: 20px;
+    width: 50%;
+    height: 278px;
+}
+
+.schedule__groups:hover {
+    width: 51%;
+    height: 288px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    transition: width 0.7s, height 0.7s;
+}
+
+.number-years_schedule {
+    grid-column: span 2;
+    margin: 0;
+}
+
+.schedule__groups:hover .number-years_schedule {
+    grid-column: inherit;
+}
+
+.text-years_schedule {
+    margin: 0;
+}
+
+.schedule__groups:hover .text-years_schedule {
+    display: none;
+}
+
+.schedule__button_sing-up {
+    display: none;
+    background-color: #F6272F;
+    width: 244px;
+    color: white;
+    align-self: center;
+}
+
+.schedule__groups:hover .schedule__button_sing-up {
+    display: block;
+}
+
+.schedule__date {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+
+.schedule__address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+

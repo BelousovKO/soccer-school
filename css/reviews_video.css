@@ -1,0 +1,142 @@
+.reviews_video_wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1062px;
+    margin: 0 auto 189px auto;
+    padding: 0 10px;
+    z-index: 2;
+}
+
+.reviews__signature {
+    display: grid;
+    grid-template-columns: 63px 83px 83px;
+    grid-template-rows: auto auto;
+}
+
+.signature__icon {
+    grid-row: span 2;
+    width: 45px;
+    height: 45px;
+}
+
+.signature__name {
+    font-style: normal;
+    grid-column: span 2;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.reviews__title_small {
+    position: relative;
+    width: 374px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 39px;
+}
+
+.reviews__text {
+    width: 435px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 34px;
+    margin-top: 30px;
+    margin-bottom: 27px;
+}
+
+.reviews__quotes {
+    position: absolute;
+    left: -45px;
+    top: 9px;
+    width: 29px;
+    height: 23px;
+    background-image: url("icon/quotes.svg");
+}
+
+.signature__social {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #BDBCBC;
+
+}
+
+.video-blog {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.video__nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 160px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-bottom: 28px;
+}
+
+.video__slide {
+    position: relative;
+    z-index: 2;
+}
+
+.videoSign {
+    height: 153px;
+    width: 153px;
+    position: absolute;
+    left: calc(50% - 153px/2);
+    top: calc(50% - 153px/2);
+}
+
+.videoSign:hover {
+    cursor: pointer;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+}
+
+.nav__point {
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    background-color: #DEDEDE;
+}
+
+.nav__item_prev,
+.nav__item_next {
+    cursor: pointer;
+    width: 29px;
+    height: 17px;
+    background-position: center;
+}
+
+.nav__item_prev {
+    background-image: url("icon/Vector 4.16.svg");
+}
+
+.nav__item_next {
+    background-image: url("icon/Vector 4.17.svg");
+}
+
+.video__slider {
+    height: 338px;
+    width: 519px;
+    overflow: hidden;
+}
+
+.video__slider_track {
+    position: relative;
+    display: flex;
+    list-style: none;
+    width: 2124px;
+    left: 0;
+    transition: left 0.5s;
+}

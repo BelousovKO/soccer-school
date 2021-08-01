@@ -1,0 +1,190 @@
+@media (max-width: 1062px) {
+
+    body {
+        padding-top: 60px;
+    }
+
+    .age-groups {
+        display: block;
+    }
+
+    .age-groups__info,
+    .age-groups__info p,
+    .reviews__title_small,
+    .reviews__text {
+        width: 100%;
+    }
+
+    .info-groups__title {
+        height: 50px;
+    }
+
+    .slider-groups {
+        max-width: 103%;
+        top: 160px;
+        left: -5px;
+    }
+
+    .slider-groups__button {
+        top: 135px;
+    }
+
+    .slider-groups__items {
+        color: white;
+        background-color: #e94a50;
+        height: 387px;
+        background-size: cover;
+        background-blend-mode: multiply;
+    }
+
+    .slider-groups__items * {
+        display: inline-block;
+    }
+
+    .text-years {
+        display: block;
+    }
+
+    .number-years {
+        margin-top: 6px;
+    }
+
+    .slider-groups__button_sign-up {
+        margin-left: 11px;
+    }
+
+    .slider-groups__description {
+        min-height: 75px;
+    }
+
+    .description__items {
+        margin-left: 0;
+    }
+
+    .schedule {
+        margin-bottom: 60px;
+    }
+
+    .schedule__container {
+        width: 100%;
+        height: 1112px;
+        position: relative;
+    }
+
+    .schedule__preschool-group:hover {
+        left: 0;
+        top: 0;
+    }
+
+    .schedule__younger-group:hover {
+        right: 0;
+        top: 278px;
+    }
+
+    .schedule__middle-group:hover {
+        left: 0;
+        bottom: 278px;
+    }
+
+    .schedule__senior-group:hover {
+        right: 0;
+        bottom: 0;
+    }
+
+    .schedule__groups {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .schedule__preschool-group {
+        top: 0;
+        background-color: #F2F1F1;
+    }
+
+    .schedule__younger-group {
+        top: 278px;
+        background-color: #FBF9F9;
+    }
+
+    .schedule__middle-group {
+        bottom: 278px;
+        background-color: #F2F1F1;
+    }
+
+    .schedule__senior-group {
+        bottom: 0;
+        background-color: #FBF9F9;
+    }
+
+    .schedule__groups:hover {
+        width: 100%;
+        height: 288px;
+        z-index: 3;
+        transition: height 0.7s;
+    }
+
+    .number-years_schedule {
+        grid-column: inherit;
+    }
+
+    .schedule__button_sing-up {
+        display: block;
+        width: 244px;
+    }
+
+    .reviews_video_wrapper {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .reviews__signature {
+        margin-bottom: 40px;
+    }
+
+    .video-blog {
+        margin-top: 40px;
+    }
+
+    .video__nav {
+        margin: 0 auto 30px auto;
+    }
+
+    .video__slider {
+        margin: 0 auto;
+    }
+
+    .contacts__grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+    }
+
+    .contacts__info {
+        margin-bottom: 40px;
+    }
+
+    .form__wrapper {
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .form__title {
+        width: 75%;
+        margin: 30px auto;
+    }
+
+    .contacts__sign-up {
+        max-width: 100%;
+        padding-right: 10px;
+    }
+
+    .contacts__map img {
+        position: relative;
+    }
+
+    .decor {
+        display: none;
+    }
+}
